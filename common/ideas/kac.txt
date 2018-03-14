@@ -1,0 +1,64 @@
+ideas = {
+
+	country = {
+	KAC_procvetanie = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = nkvd
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.3
+				consumer_goods_factor = 0.05
+				political_power_gain = 0.5
+				justify_war_goal_time = 0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+		}
+		
+	political_advisor = {
+
+		BRA_washington_luis_pereira = {
+
+			picture = generic_political_advisor_south_america_1
+			
+			allowed = {
+				original_tag = BRA
+			}
+			
+			traits = { backroom_backstabber }
+		}
+
+		BRA_osvaldo_aranha = {
+
+			picture = generic_political_advisor_south_america_2
+				
+			allowed = {
+				original_tag = BRA
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+		BRA_afranio_de_mello_franco = {
+
+			picture = generic_political_advisor_south_america_3
+			
+			allowed = {
+				original_tag = BRA
+			}
+			
+			traits = { popular_figurehead }
+		}
+	}
+
+}
