@@ -1,0 +1,30 @@
+focus_tree = {
+	id = kac_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KAC
+		}
+	}
+	
+	focus = {
+		id = KAC_annex_sb2
+		icon = GFX_focus_research
+		text = kac_more
+		prerequisite = { focus = KAC_annex_sb }
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			KAC = {
+			transfer_state = 160
+			}
+		}
+	}

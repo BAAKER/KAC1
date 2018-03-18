@@ -79,6 +79,7 @@ set_politics = {
 
 add_ideas = {
 	procvetanie
+	spies
 	}
 
 create_country_leader = {

@@ -17,14 +17,47 @@ ideas = {
 			picture = KAC_procvetanie
 			
 			modifier = {
-				political_power_cost = 1
-				consumer_goods_factor = 0.3
-				conscription_factor = -0.5
-				join_faction_tension = 0.20
+				stability_factor = 0.2
+				consumer_goods_factor = 0.05
+				political_power_gain = 1
+				justify_war_goal_time = 0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+		
+		spies = {
+		
+		
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			removal_cost = -1
+			
+			picture = Spies
+			
+			modifier = {
+				enemy_partisan_effect = 0.5
 			}
 		}
 
 
 	
 	}
+	
+	political_advisor = {
+		
+		KAC_Anton_Kovalyov = {
+		
+			allowed = {
+				original_tag = KAC
+			}
+			
+			picture = GFX_PORTRAIT_Anton_Kovalyov
+			
+			traits = { propaganda_expert }
+		}
 }

@@ -1,0 +1,30 @@
+
+add_namespace = kac
+
+country_event = {
+	id = kac.1
+	title = kac.1.t
+	desc = kac.1.d
+	picture = GFX_report_event_dopizdelsya
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KAC
+		has_idea = procvetanie
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = { 
+		name = kac.1.a
+		add_political_power = -250
+		
+	}
+	option = { 
+		name = kac.1.b
+		add_manpower = -50000
+	}
+}
